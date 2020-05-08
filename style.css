@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.grid-container {
+  display: grid;
+  list-style-type: none;
+}
+
+.grid-container ul {
+  list-style-type: none;
+}
+
+h1 {
+  transition: transform 0.1s ease-in-out;
+}
+h1:hover {
+  transform: scale(1.05);
+  background-color: blue;
+  width: 50%;
+}
